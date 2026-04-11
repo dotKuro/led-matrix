@@ -8,7 +8,8 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "adafruit-circuitpython-neopixel (>=6.4.1,<7.0.0)"
+    "adafruit-circuitpython-neopixel (>=6.4.1,<7.0.0)",
+    "adafruit-blinka (>=9.0.4,<10.0.0)"
 ]
 
 
