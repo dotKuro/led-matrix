@@ -1,0 +1,15 @@
+[package]
+name = "matrix"
+version = "0.1.0"
+edition = "2021"
+description = "server for self built led matrix"
+authors = ["Alexander Kampf", "Noah Hummel"]
+
+[dependencies]
+rs_ws281x = "0.5"
+rand = "0.8"
+ctrlc = "3.4"
+
+[profile.release]
+lto = true
+codegen-units = 1
